@@ -25,7 +25,9 @@
        font-family: 'poppins',sans-serif;
        font-size: 35px;
        padding: 0 1.2rem;
-       color: rgb(228, 194, 0);
+       color: #490066;
+       background-image: linear-gradient(180deg,rgb(231, 104, 0),rgb(255, 136, 0),rgb(255, 193, 21));
+       border-radius: 2rem;
    }
    nav{
        padding: 2rem 2rem;
@@ -40,7 +42,7 @@
    .Hero-area{
        display: flex;
        justify-content: space-between;
-       background-color:rgb(61, 2, 138) ;
+       background-image: linear-gradient(180deg,rgb(61, 2, 138),rgb(105, 59, 165),rgb(177, 138, 228));
      }
      .Hero-text{
          text-align: center;
@@ -54,7 +56,9 @@
      }
      .Hero-text p{
          font-size: 19px;
+         text-shadow: #000000;
          color: #ddd900;
+         margin: 0 4rem;
          padding-left: 2rem;
          margin-top: 7rem;
     }
@@ -81,9 +85,19 @@
     .product-list{
         padding: 2rem 2rem;
         text-align: center;
+        font-family: 'Raleway',sans-serif;
+        font-weight: 500;
         font-size: 30px;
         color: rgb(61, 2, 138);
         background-color:rgb(247, 211, 11) ;
+    }
+    .our-collection{
+        font-family: 'Raleway',sans-serif;
+        font-size: 25px;
+        color: #070707;
+        text-align: center;
+        padding: 1.2rem;
+
     }
     .products-list-images{
         margin: 2rem 1rem;
@@ -100,12 +114,31 @@
         gap: 5px;
     }
     .products-list-images figure img{
-       max-width:450px; 
-       height: 600px;
+       max-width:500px; 
+       height: 700px;
+       border-radius: 1rem;
     }
     .products-list-images figure span{
         font-size: 15px;
         color: rgb(61, 2, 138);
-        background-color:rgb(247, 211, 11);
+        background-color:rgba(247, 212, 11, 0.062);
+        background-blend-mode: lighten;
+        border-radius: 1rem;
+        text-align: center;
+    }
+    blockquote{
+        font: lighter italic 36px Georgia, 'Times New Roman', Times, serif;
+        background-color: #E5E7EB;
+        color: #1F2937;
+        padding: 3rem 4rem;
+        margin: 3rem 12rem;
+    }
+    blockquote span{
+        font-size: 20px;
+        color: #070707;
+        display: block;
+        font-weight: bold;
+        text-align: end;
+        font-family: sans-serif;
     }
     
