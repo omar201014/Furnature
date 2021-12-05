@@ -89,15 +89,16 @@
         margin: 2rem 1rem;
         padding: 2rem 2rem;
         display: flex;
-        flex-direction: column;
-        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: space-evenly;
     }
     .products-list-images figure{
         display: flex;
         flex-direction: column;
         gap: 5px;
     }
-    
     .products-list-images figure img{
        max-width:450px; 
        height: 600px;
