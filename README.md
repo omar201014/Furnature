@@ -2,8 +2,13 @@
 Website for selling Furniture 
 # Acknowldges
 pexels-valeria-boltneva
+
 pexels-arthouse-studio
+
 pexels-cottonbro
+
 pexels-dominika-roseclay
+
 pexels-max-vakhtbovych
-pexels-mark-mccammon
+
+pexls-mark-mccammon
